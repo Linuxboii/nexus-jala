@@ -1,0 +1,15 @@
+HTTP/1.1 301 Moved Permanently
+Location: https://shop.example/
+Server: Apache/2.4.29 (Ubuntu)
+
+HTTP/1.1 200 OK
+Date: Tue, 24 Nov 2026 10:00:00 GMT
+Server: Apache/2.4.29 (Ubuntu)
+X-Powered-By: PHP/7.2.24
+Content-Type: text/html; charset=UTF-8
+Strict-Transport-Security: max-age=86400
+Content-Security-Policy: default-src 'self' 'unsafe-inline' https:
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: no-referrer-when-downgrade
+Set-Cookie: PHPSESSID=8f2a1c; path=/; HttpOnly
+Set-Cookie: cart=42; path=/; SameSite=None

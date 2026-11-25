@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nexus-jala"
+version = "1.0.0"
+description = "Audit and letter-grade HTTP security headers (CSP, HSTS, cookies, COOP and more) with fix-it advice."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Sushanth Kasturi" }]
+requires-python = ">=3.10"
+keywords = ["security", "http-headers", "csp", "hsts", "audit", "cli"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+    "Topic :: Security",
+]
+
+[project.scripts]
+nexus-jala = "nexus_jala.cli:main"
+
+[tool.setuptools]
+packages = ["nexus_jala"]
